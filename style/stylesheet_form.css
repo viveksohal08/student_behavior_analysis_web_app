@@ -1,0 +1,45 @@
+body {
+	text-align: center;
+}
+#theForm {
+	color:white;
+	display: table;
+	padding: 15px;
+	background-color: #2C8F77;
+	border: solid 2px black;
+}
+.row {
+	display: table-row;
+}
+.row label {
+	display: table-cell;
+	padding: 2px;
+	text-align:right;
+}
+.row input {
+	display: table-cell;
+	padding: 2px;
+}
+.row input:focus {
+	background-color: yellow;
+}
+.row textarea {
+	display: table-cell;
+	padding: 2px;
+	resize: none;
+}
+.row textarea:focus {
+	background-color: yellow;
+}
+.asterisk {
+	color: #FF0000;
+}
+input[type="submit"] {
+	background-color: yellow;
+	border: none;
+	color: white;
+	padding: 8px 16px;
+	text-decoration: none;
+	cursor: pointer;
+	margin-right: 50px;
+}
